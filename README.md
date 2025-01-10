@@ -10,22 +10,22 @@ This notebook is responsible for training regression and classification models, 
 - **Platform:** The notebook is designed to run on Kaggle.
 - **Workflow:** It performs training and prediction for multiple models, saving both the results and the prediction files for further analysis.
 
-### 2. `combind_a.ipynb` and `combind_b.ipynb`
-These notebooks focus on improving predictive accuracy by integrating the outputs of regression and classification models through two different methods. They implement:
+### 2. `combind_a.py` and `combind_b.py`
+These files focus on improving predictive accuracy by integrating the outputs of regression and classification models through two different methods. They implement:
 - Strategies for combining predictions from different models.
 - Enhanced methods to leverage the complementary strengths of regression and classification outputs.
 
-### 3. `ensemble.ipynb`
-Similar to `combind_a.ipynb` and `combind_b.ipynb`, this notebook works on enhancing predictive accuracy by ensembling model outputs. Key features include:
+### 3. `ensemble.py`
+Similar to `combind_a.py` and `combind_b.py`, this notebook works on enhancing predictive accuracy by ensembling model outputs. Key features include:
 - Techniques for aggregating predictions from multiple models.
 - An emphasis on achieving higher accuracy through ensemble learning approaches.
 
 ## Repository Structure
 ```
 ├── class_reg_model_train_pred_output.ipynb  # Model training and prediction on Kaggle
-├── combind_a.ipynb                          # Integration of regression and classification outputs
-├── combind_b.ipynb                          # Integration of regression and classification outputs
-├── ensemble.ipynb                           # Ensemble learning for predictive accuracy
+├── combind_a.py                          # Integration of regression and classification outputs
+├── combind_b.py                          # Integration of regression and classification outputs
+├── ensemble.py                          # Ensemble learning for predictive accuracy
 ```
 
 ## How to Use
